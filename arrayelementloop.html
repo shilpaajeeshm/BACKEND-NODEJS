@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function sum(...c){
+            var s=0
+            c.forEach((item)=>{
+                s=s+item;
+            })
+            return s;
+        }
+        console.log(sum(5,10,15,20,25));
+    </script>
+</body>
+</html>
