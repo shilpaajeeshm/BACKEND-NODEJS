@@ -1,15 +1,5 @@
-export function add(a,b){
-    return a+b;
-}
-
-export function sub(a,b){
-    return a-b;
-}
-
-export function mul(a,b){
-    return a*b;
-}
-
-export function div(a,b){
-    return a/b;
-}
+var path=require("path");
+var fs=require("fs")
+fs.writeFile(path.join(__dirname,"/api","text.txt"),"username:shilpa",(err)=>{
+    if(err) throw err
+})
